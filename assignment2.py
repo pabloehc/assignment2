@@ -12,7 +12,7 @@ class Assignment2:
     def listAnniversaries(self):
         anniversaries = []
 
-        tenYearAnniversariesCount = (2024 - self.year)//10
+        tenYearAnniversariesCount = (2022 - self.year)//10
 
         for n in range(tenYearAnniversariesCount):
             anniversaries.append((n+1) * 10)
